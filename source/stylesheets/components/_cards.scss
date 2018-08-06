@@ -1,0 +1,38 @@
+.card-user{
+    height: 100px;
+    text-shadow: 0 1px 3px rgba(0,0,0,0.6);
+    background-size: cover !important;
+    background-position: center;
+    color: white;
+    position: relative;
+}
+
+.card{
+    color: white;
+    text-align: center;
+    height: 100vh;
+    background-size: cover !important;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.card-category {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+// .card-description {
+//     position: absolute;
+//     bottom: 10px;
+//     left: 10px;
+// }
